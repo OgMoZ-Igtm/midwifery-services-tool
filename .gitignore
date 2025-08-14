@@ -1,0 +1,17 @@
+# Fichiers Python
+*.pyc
+__pycache__/
+
+# Base de données locale
+*.db
+
+# Fichiers Streamlit
+.streamlit/
+
+# Fichiers temporaires
+*.log
+*.tmp
+
+# Environnement virtuel
+venv/
+.env
