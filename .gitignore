@@ -1,17 +1,48 @@
-# Fichiers Python
+# 🔐 Fichiers sensibles
+.token.json
+.env
+
+# 🐍 Python
 *.pyc
 __pycache__/
+*.pyo
+*.pyd
 
-# Base de données locale
+# 📦 Environnements virtuels
+venv/
+env/
+
+# 🧪 Tests et logs
+*.log
+logs/
+coverage/
+
+# 🗃️ Bases de données
 *.db
+*.sqlite3
 
-# Fichiers Streamlit
+# 📄 Fichiers générés
+*.pdf
+*.xlsx
+*.csv
+
+# 🖼️ Fichiers temporaires
+*.tmp
+*.bak
+
+# 🧠 Streamlit
 .streamlit/
 
-# Fichiers temporaires
-*.log
-*.tmp
+# 🧰 VSCode
+.vscode/
 
-# Environnement virtuel
-venv/
-.env
+# 🧪 Jupyter
+.ipynb_checkpoints/
+
+# 📦 Packages
+__init__.py
+
+# 📁 Dossiers spécifiques
+.cache/
+dist/
+build/
